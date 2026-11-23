@@ -1,0 +1,431 @@
+year,is_atypical_year,grande_area,subarea,degree_type,courses,vagas,inscritos
+2003,false,Ciências Agrárias,Ciências Agrárias,Bacharelado,2,150,1174
+2003,false,Ciências Biológicas,Ciências Biológicas,Bacharelado/Licenciatura,1,60,1331
+2003,false,Ciências Exatas e da Terra,Ciências Exatas,Bacharelado,2,75,280
+2003,false,Ciências Exatas e da Terra,Ciências Exatas,Licenciatura,4,290,2131
+2003,false,Ciências Exatas e da Terra,Ciências Exatas,Não informado,1,80,384
+2003,false,Ciências Exatas e da Terra,Computação,Bacharelado,2,200,2212
+2003,false,Ciências Humanas,Ciências Humanas,ABI,2,90,563
+2003,false,Ciências Humanas,Ciências Humanas,Bacharelado/Licenciatura,7,310,2584
+2003,false,Ciências Humanas,Ciências Humanas,Licenciatura,1,100,652
+2003,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,12,960,9894
+2003,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Não informado,1,80,1450
+2003,false,Ciências da Saúde,Saúde,Bacharelado,3,260,6936
+2003,false,Ciências da Saúde,Saúde,Não informado,3,160,2171
+2003,false,Engenharias,Engenharia,Bacharelado,7,530,5366
+2003,false,Engenharias,Engenharia,Não informado,4,165,724
+2003,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado/Licenciatura,7,270,1286
+2003,false,"Linguística, Letras e Artes",Letras e Artes,Não informado,2,100,1223
+2004,false,Ciências Agrárias,Ciências Agrárias,Bacharelado,2,150,1121
+2004,false,Ciências Biológicas,Ciências Biológicas,Bacharelado/Licenciatura,1,60,1044
+2004,false,Ciências Exatas e da Terra,Ciências Exatas,Bacharelado,2,75,266
+2004,false,Ciências Exatas e da Terra,Ciências Exatas,Licenciatura,4,290,2214
+2004,false,Ciências Exatas e da Terra,Ciências Exatas,Não informado,1,80,423
+2004,false,Ciências Exatas e da Terra,Computação,Bacharelado,2,200,1946
+2004,false,Ciências Humanas,Ciências Humanas,ABI,2,90,632
+2004,false,Ciências Humanas,Ciências Humanas,Bacharelado/Licenciatura,7,310,2351
+2004,false,Ciências Humanas,Ciências Humanas,Licenciatura,1,100,711
+2004,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,13,1000,9171
+2004,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Não informado,1,80,1454
+2004,false,Ciências da Saúde,Saúde,Bacharelado,4,380,7936
+2004,false,Ciências da Saúde,Saúde,Não informado,1,40,801
+2004,false,Engenharias,Engenharia,Bacharelado,7,530,4868
+2004,false,Engenharias,Engenharia,Não informado,4,165,861
+2004,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado/Licenciatura,7,280,1085
+2004,false,"Linguística, Letras e Artes",Letras e Artes,Não informado,1,60,796
+2005,false,Ciências Agrárias,Ciências Agrárias,Bacharelado,2,150,1418
+2005,false,Ciências Biológicas,Ciências Biológicas,Bacharelado/Licenciatura,1,60,1134
+2005,false,Ciências Exatas e da Terra,Ciências Exatas,Bacharelado,2,75,280
+2005,false,Ciências Exatas e da Terra,Ciências Exatas,Licenciatura,4,290,2080
+2005,false,Ciências Exatas e da Terra,Ciências Exatas,Não informado,1,80,342
+2005,false,Ciências Exatas e da Terra,Computação,Bacharelado,2,200,1724
+2005,false,Ciências Humanas,Ciências Humanas,ABI,2,90,555
+2005,false,Ciências Humanas,Ciências Humanas,Bacharelado/Licenciatura,7,310,2461
+2005,false,Ciências Humanas,Ciências Humanas,Licenciatura,1,100,534
+2005,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,13,1000,9505
+2005,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Não informado,1,80,1221
+2005,false,Ciências da Saúde,Saúde,Bacharelado,4,380,9099
+2005,false,Ciências da Saúde,Saúde,Não informado,1,40,738
+2005,false,Engenharias,Engenharia,Bacharelado,7,530,5117
+2005,false,Engenharias,Engenharia,Não informado,4,165,986
+2005,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado,1,30,740
+2005,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado/Licenciatura,7,280,1233
+2005,false,"Linguística, Letras e Artes",Letras e Artes,Não informado,1,60,957
+2006,false,Ciências Agrárias,Ciências Agrárias,Bacharelado,2,150,924
+2006,false,Ciências Biológicas,Ciências Biológicas,Bacharelado/Licenciatura,1,60,1035
+2006,false,Ciências Exatas e da Terra,Ciências Exatas,Bacharelado,3,135,829
+2006,false,Ciências Exatas e da Terra,Ciências Exatas,Licenciatura,4,230,919
+2006,false,Ciências Exatas e da Terra,Ciências Exatas,Não informado,1,80,319
+2006,false,Ciências Exatas e da Terra,Computação,Bacharelado,2,200,1559
+2006,false,Ciências Humanas,Ciências Humanas,ABI,2,90,581
+2006,false,Ciências Humanas,Ciências Humanas,Bacharelado/Licenciatura,7,310,2346
+2006,false,Ciências Humanas,Ciências Humanas,Licenciatura,1,100,593
+2006,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,13,1000,7922
+2006,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Não informado,1,80,1279
+2006,false,Ciências da Saúde,Saúde,Bacharelado,4,380,5924
+2006,false,Ciências da Saúde,Saúde,Não informado,1,40,715
+2006,false,Engenharias,Engenharia,Bacharelado,7,530,4322
+2006,false,Engenharias,Engenharia,Não informado,4,165,921
+2006,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado,1,30,313
+2006,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado/Licenciatura,7,280,1128
+2006,false,"Linguística, Letras e Artes",Letras e Artes,Não informado,1,60,867
+2007,false,Ciências Agrárias,Ciências Agrárias,Bacharelado,2,150,705
+2007,false,Ciências Biológicas,Ciências Biológicas,Bacharelado/Licenciatura,1,60,784
+2007,false,Ciências Exatas e da Terra,Ciências Exatas,Bacharelado,3,135,693
+2007,false,Ciências Exatas e da Terra,Ciências Exatas,Licenciatura,4,230,867
+2007,false,Ciências Exatas e da Terra,Ciências Exatas,Não informado,1,80,258
+2007,false,Ciências Exatas e da Terra,Computação,Bacharelado,2,200,1283
+2007,false,Ciências Humanas,Ciências Humanas,ABI,2,90,437
+2007,false,Ciências Humanas,Ciências Humanas,Bacharelado/Licenciatura,7,310,1745
+2007,false,Ciências Humanas,Ciências Humanas,Licenciatura,1,100,394
+2007,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,13,1000,7237
+2007,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Não informado,1,80,954
+2007,false,Ciências da Saúde,Saúde,Bacharelado,4,380,6280
+2007,false,Ciências da Saúde,Saúde,Não informado,1,40,459
+2007,false,Engenharias,Engenharia,Bacharelado,7,530,4112
+2007,false,Engenharias,Engenharia,Não informado,4,165,811
+2007,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado,1,30,326
+2007,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado/Licenciatura,7,280,846
+2007,false,"Linguística, Letras e Artes",Letras e Artes,Não informado,1,60,679
+2008,false,Ciências Agrárias,Ciências Agrárias,Bacharelado,3,210,849
+2008,false,Ciências Biológicas,Ciências Biológicas,Bacharelado/Licenciatura,1,60,658
+2008,false,Ciências Exatas e da Terra,Ciências Exatas,Bacharelado,4,165,1275
+2008,false,Ciências Exatas e da Terra,Ciências Exatas,Licenciatura,4,230,759
+2008,false,Ciências Exatas e da Terra,Ciências Exatas,Não informado,1,80,268
+2008,false,Ciências Exatas e da Terra,Computação,Bacharelado,2,200,1262
+2008,false,Ciências Humanas,Ciências Humanas,ABI,2,90,440
+2008,false,Ciências Humanas,Ciências Humanas,Bacharelado/Licenciatura,7,310,1598
+2008,false,Ciências Humanas,Ciências Humanas,Licenciatura,1,100,395
+2008,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,13,1000,6895
+2008,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Não informado,1,80,1220
+2008,false,Ciências da Saúde,Saúde,Bacharelado,4,380,6322
+2008,false,Ciências da Saúde,Saúde,Não informado,1,40,507
+2008,false,Engenharias,Engenharia,Bacharelado,7,530,4180
+2008,false,Engenharias,Engenharia,Não informado,4,180,832
+2008,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado,2,60,438
+2008,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado/Licenciatura,7,320,745
+2008,false,"Linguística, Letras e Artes",Letras e Artes,Não informado,1,60,600
+2009,false,Ciências Agrárias,Ciências Agrárias,Bacharelado,4,290,991
+2009,false,Ciências Biológicas,Ciências Biológicas,Bacharelado/Licenciatura,1,80,616
+2009,false,Ciências Exatas e da Terra,Ciências Exatas,Bacharelado,5,265,1043
+2009,false,Ciências Exatas e da Terra,Ciências Exatas,Licenciatura,5,280,656
+2009,false,Ciências Exatas e da Terra,Computação,Bacharelado,2,200,1208
+2009,false,Ciências Humanas,Ciências Humanas,ABI,2,90,301
+2009,false,Ciências Humanas,Ciências Humanas,Bacharelado/Licenciatura,7,334,1508
+2009,false,Ciências Humanas,Ciências Humanas,Licenciatura,1,100,299
+2009,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,14,1130,7364
+2009,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Não informado,1,90,941
+2009,false,Ciências da Saúde,Saúde,Bacharelado,4,405,6251
+2009,false,Ciências da Saúde,Saúde,Não informado,1,45,432
+2009,false,Engenharias,Engenharia,Bacharelado,7,582,4844
+2009,false,Engenharias,Engenharia,Não informado,4,190,980
+2009,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado,3,100,545
+2009,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado/Licenciatura,7,320,775
+2009,false,"Linguística, Letras e Artes",Letras e Artes,Não informado,2,80,594
+2010,false,Ciências Agrárias,Ciências Agrárias,Bacharelado,4,330,791
+2010,false,Ciências Agrárias,Ciências Agrárias,Não informado,1,360,169
+2010,false,Ciências Biológicas,Ciências Biológicas,Bacharelado/Licenciatura,1,80,586
+2010,false,Ciências Biológicas,Ciências Biológicas,Licenciatura,1,80,99
+2010,false,Ciências Exatas e da Terra,Ciências Exatas,Bacharelado,6,295,1197
+2010,false,Ciências Exatas e da Terra,Ciências Exatas,Licenciatura,5,280,521
+2010,false,Ciências Exatas e da Terra,Computação,Bacharelado,3,300,1242
+2010,false,Ciências Exatas e da Terra,Computação,Não informado,1,100,53
+2010,false,Ciências Humanas,Ciências Humanas,ABI,2,90,318
+2010,false,Ciências Humanas,Ciências Humanas,Bacharelado,1,25,54
+2010,false,Ciências Humanas,Ciências Humanas,Bacharelado/Licenciatura,7,334,1381
+2010,false,Ciências Humanas,Ciências Humanas,Licenciatura,1,100,240
+2010,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,16,1215,6840
+2010,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Não informado,1,90,1107
+2010,false,Ciências da Saúde,Saúde,Bacharelado,5,485,8010
+2010,false,Ciências da Saúde,Saúde,Não informado,1,45,403
+2010,false,Engenharias,Engenharia,Bacharelado,10,1122,5761
+2010,false,Engenharias,Engenharia,Não informado,4,190,756
+2010,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado,3,100,755
+2010,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado/Licenciatura,7,320,605
+2010,false,"Linguística, Letras e Artes",Letras e Artes,Não informado,2,80,545
+2011,false,Ciências Agrárias,Ciências Agrárias,Bacharelado,4,330,727
+2011,false,Ciências Agrárias,Ciências Agrárias,Não informado,1,200,282
+2011,false,Ciências Biológicas,Ciências Biológicas,Bacharelado/Licenciatura,1,80,523
+2011,false,Ciências Biológicas,Ciências Biológicas,Licenciatura,1,80,292
+2011,false,Ciências Exatas e da Terra,Ciências Exatas,Bacharelado,6,295,1275
+2011,false,Ciências Exatas e da Terra,Ciências Exatas,Licenciatura,5,280,629
+2011,false,Ciências Exatas e da Terra,Computação,Bacharelado,3,300,1170
+2011,false,Ciências Humanas,Ciências Humanas,ABI,2,90,304
+2011,false,Ciências Humanas,Ciências Humanas,Bacharelado,1,25,84
+2011,false,Ciências Humanas,Ciências Humanas,Bacharelado/Licenciatura,7,334,1482
+2011,false,Ciências Humanas,Ciências Humanas,Licenciatura,1,100,302
+2011,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,16,1215,6841
+2011,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Não informado,1,90,1181
+2011,false,Ciências da Saúde,Saúde,Bacharelado,6,545,9148
+2011,false,Ciências da Saúde,Saúde,Não informado,1,45,367
+2011,false,Engenharias,Computação,Bacharelado,1,60,191
+2011,false,Engenharias,Engenharia,Bacharelado,10,1122,6196
+2011,false,Engenharias,Engenharia,Não informado,4,190,916
+2011,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado,3,100,608
+2011,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado/Licenciatura,7,320,638
+2011,false,"Linguística, Letras e Artes",Letras e Artes,Não informado,2,80,549
+2012,false,Ciências Agrárias,Ciências Agrárias,Bacharelado,5,370,1027
+2012,false,Ciências Agrárias,Ciências Agrárias,Não informado,1,200,181
+2012,false,Ciências Biológicas,Ciências Biológicas,Bacharelado/Licenciatura,1,80,487
+2012,false,Ciências Biológicas,Ciências Biológicas,Licenciatura,1,80,173
+2012,false,Ciências Exatas e da Terra,Ciências Exatas,Bacharelado,7,325,1066
+2012,false,Ciências Exatas e da Terra,Ciências Exatas,Licenciatura,5,280,478
+2012,false,Ciências Exatas e da Terra,Computação,Bacharelado,3,300,1010
+2012,false,Ciências Humanas,Ciências Humanas,ABI,2,90,243
+2012,false,Ciências Humanas,Ciências Humanas,Bacharelado,1,25,66
+2012,false,Ciências Humanas,Ciências Humanas,Bacharelado/Licenciatura,7,334,1263
+2012,false,Ciências Humanas,Ciências Humanas,Licenciatura,1,100,236
+2012,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,16,1215,6423
+2012,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Não informado,1,90,990
+2012,false,Ciências da Saúde,Saúde,Bacharelado,6,545,6799
+2012,false,Ciências da Saúde,Saúde,Não informado,1,45,357
+2012,false,Engenharias,Computação,Bacharelado,1,60,177
+2012,false,Engenharias,Engenharia,Bacharelado,10,1122,5741
+2012,false,Engenharias,Engenharia,Não informado,4,190,841
+2012,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado,4,200,1079
+2012,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado/Licenciatura,7,320,525
+2012,false,"Linguística, Letras e Artes",Letras e Artes,Licenciatura,1,20,58
+2013,false,Ciências Agrárias,Ciências Agrárias,Bacharelado,7,610,1292
+2013,false,Ciências Biológicas,Ciências Biológicas,Bacharelado/Licenciatura,1,80,510
+2013,false,Ciências Biológicas,Ciências Biológicas,Licenciatura,1,80,203
+2013,false,Ciências Exatas e da Terra,Ciências Exatas,Bacharelado,7,325,1209
+2013,false,Ciências Exatas e da Terra,Ciências Exatas,Licenciatura,5,280,663
+2013,false,Ciências Exatas e da Terra,Computação,Bacharelado,3,300,1183
+2013,false,Ciências Humanas,Ciências Humanas,ABI,2,90,296
+2013,false,Ciências Humanas,Ciências Humanas,Bacharelado,1,25,59
+2013,false,Ciências Humanas,Ciências Humanas,Bacharelado/Licenciatura,7,334,1588
+2013,false,Ciências Humanas,Ciências Humanas,Licenciatura,1,100,310
+2013,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,16,1215,6857
+2013,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Não informado,1,90,1276
+2013,false,Ciências da Saúde,Saúde,Bacharelado,6,545,9236
+2013,false,Ciências da Saúde,Saúde,Não informado,1,45,328
+2013,false,Engenharias,Computação,Bacharelado,1,60,177
+2013,false,Engenharias,Engenharia,Bacharelado,10,1122,7229
+2013,false,Engenharias,Engenharia,Não informado,4,190,949
+2013,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado,4,200,1210
+2013,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado/Licenciatura,7,320,582
+2013,false,"Linguística, Letras e Artes",Letras e Artes,Licenciatura,1,20,30
+2014,false,Ciências Agrárias,Ciências Agrárias,Bacharelado,7,610,1281
+2014,false,Ciências Biológicas,Ciências Biológicas,Bacharelado/Licenciatura,1,80,512
+2014,false,Ciências Biológicas,Ciências Biológicas,Licenciatura,1,80,199
+2014,false,Ciências Exatas e da Terra,Ciências Exatas,Bacharelado,7,325,1169
+2014,false,Ciências Exatas e da Terra,Ciências Exatas,Licenciatura,7,480,797
+2014,false,Ciências Exatas e da Terra,Computação,Bacharelado,3,300,1015
+2014,false,Ciências Humanas,Ciências Humanas,ABI,2,90,347
+2014,false,Ciências Humanas,Ciências Humanas,Bacharelado,1,25,56
+2014,false,Ciências Humanas,Ciências Humanas,Bacharelado/Licenciatura,7,334,1583
+2014,false,Ciências Humanas,Ciências Humanas,Licenciatura,1,100,273
+2014,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,16,1215,6068
+2014,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Não informado,1,90,1133
+2014,false,Ciências da Saúde,Saúde,Bacharelado,6,525,8719
+2014,false,Ciências da Saúde,Saúde,Não informado,1,45,456
+2014,false,Engenharias,Computação,Bacharelado,1,60,139
+2014,false,Engenharias,Engenharia,Bacharelado,13,1422,6529
+2014,false,Engenharias,Engenharia,Não informado,4,190,866
+2014,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado,4,200,1134
+2014,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado/Licenciatura,7,320,553
+2014,false,"Linguística, Letras e Artes",Letras e Artes,Licenciatura,1,20,53
+2015,false,Ciências Agrárias,Ciências Agrárias,Bacharelado,7,584,1258
+2015,false,Ciências Biológicas,Ciências Biológicas,Bacharelado/Licenciatura,1,80,582
+2015,false,Ciências Biológicas,Ciências Biológicas,Licenciatura,1,80,218
+2015,false,Ciências Exatas e da Terra,Ciências Exatas,Bacharelado,7,313,1254
+2015,false,Ciências Exatas e da Terra,Ciências Exatas,Licenciatura,7,461,742
+2015,false,Ciências Exatas e da Terra,Computação,Bacharelado,3,296,1012
+2015,false,Ciências Humanas,Ciências Humanas,ABI,2,90,352
+2015,false,Ciências Humanas,Ciências Humanas,Bacharelado,1,25,92
+2015,false,Ciências Humanas,Ciências Humanas,Bacharelado/Licenciatura,7,328,1689
+2015,false,Ciências Humanas,Ciências Humanas,Licenciatura,1,100,252
+2015,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,16,1201,5994
+2015,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Não informado,1,90,1197
+2015,false,Ciências da Saúde,Saúde,Bacharelado,6,525,8056
+2015,false,Ciências da Saúde,Saúde,Não informado,1,45,563
+2015,false,Engenharias,Computação,Bacharelado,1,60,143
+2015,false,Engenharias,Engenharia,Bacharelado,20,1381,6390
+2015,false,Engenharias,Engenharia,Não informado,4,190,688
+2015,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado,4,198,1247
+2015,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado/Licenciatura,7,310,533
+2015,false,"Linguística, Letras e Artes",Letras e Artes,Licenciatura,1,20,67
+2016,false,Ciências Agrárias,Ciências Agrárias,Bacharelado,7,427,1402
+2016,false,Ciências Biológicas,Ciências Biológicas,Bacharelado/Licenciatura,1,56,594
+2016,false,Ciências Biológicas,Ciências Biológicas,Licenciatura,1,56,183
+2016,false,Ciências Exatas e da Terra,Ciências Exatas,Bacharelado,7,222,1261
+2016,false,Ciências Exatas e da Terra,Ciências Exatas,Licenciatura,8,325,584
+2016,false,Ciências Exatas e da Terra,Computação,Bacharelado,3,210,1075
+2016,false,Ciências Humanas,Ciências Humanas,ABI,2,64,344
+2016,false,Ciências Humanas,Ciências Humanas,Bacharelado,1,18,81
+2016,false,Ciências Humanas,Ciências Humanas,Bacharelado/Licenciatura,7,232,1721
+2016,false,Ciências Humanas,Ciências Humanas,Licenciatura,1,70,173
+2016,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,17,848,6510
+2016,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Não informado,1,63,1268
+2016,false,Ciências da Saúde,Saúde,Bacharelado,6,368,10590
+2016,false,Ciências da Saúde,Saúde,Não informado,1,32,611
+2016,false,Engenharias,Computação,Bacharelado,1,42,133
+2016,false,Engenharias,Engenharia,Bacharelado,20,996,6238
+2016,false,Engenharias,Engenharia,Não informado,4,133,622
+2016,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado,5,146,1440
+2016,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado/Licenciatura,7,224,446
+2016,false,"Linguística, Letras e Artes",Letras e Artes,Licenciatura,1,20,42
+2017,false,Ciências Agrárias,Ciências Agrárias,Bacharelado,7,418,1440
+2017,false,Ciências Biológicas,Ciências Biológicas,Bacharelado/Licenciatura,1,56,557
+2017,false,Ciências Biológicas,Ciências Biológicas,Licenciatura,1,56,216
+2017,false,Ciências Exatas e da Terra,Ciências Exatas,Bacharelado,7,221,1200
+2017,false,Ciências Exatas e da Terra,Ciências Exatas,Licenciatura,7,325,599
+2017,false,Ciências Exatas e da Terra,Computação,Bacharelado,3,210,1078
+2017,false,Ciências Humanas,Ciências Humanas,ABI,2,64,329
+2017,false,Ciências Humanas,Ciências Humanas,Bacharelado,1,18,66
+2017,false,Ciências Humanas,Ciências Humanas,Bacharelado/Licenciatura,7,235,1704
+2017,false,Ciências Humanas,Ciências Humanas,Licenciatura,1,70,235
+2017,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,17,848,5823
+2017,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Não informado,1,63,1232
+2017,false,Ciências da Saúde,Saúde,Bacharelado,6,368,10131
+2017,false,Ciências da Saúde,Saúde,Não informado,1,32,670
+2017,false,Engenharias,Computação,Bacharelado,1,42,131
+2017,false,Engenharias,Engenharia,Bacharelado,20,990,5038
+2017,false,Engenharias,Engenharia,Não informado,4,133,500
+2017,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado,6,159,1342
+2017,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado/Licenciatura,7,221,494
+2017,false,"Linguística, Letras e Artes",Letras e Artes,Licenciatura,1,14,35
+2018,false,Ciências Agrárias,Ciências Agrárias,Bacharelado,7,380,1185
+2018,false,Ciências Biológicas,Ciências Biológicas,Bacharelado/Licenciatura,1,50,494
+2018,false,Ciências Biológicas,Ciências Biológicas,Licenciatura,1,48,161
+2018,false,Ciências Exatas e da Terra,Ciências Exatas,Bacharelado,7,192,1004
+2018,false,Ciências Exatas e da Terra,Ciências Exatas,Licenciatura,7,271,482
+2018,false,Ciências Exatas e da Terra,Computação,Bacharelado,3,159,1025
+2018,false,Ciências Humanas,Ciências Humanas,ABI,2,52,280
+2018,false,Ciências Humanas,Ciências Humanas,Bacharelado,1,16,67
+2018,false,Ciências Humanas,Ciências Humanas,Bacharelado/Licenciatura,7,206,1598
+2018,false,Ciências Humanas,Ciências Humanas,Licenciatura,1,62,200
+2018,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,17,756,5265
+2018,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Não informado,1,59,1055
+2018,false,Ciências da Saúde,Saúde,Bacharelado,6,322,10255
+2018,false,Ciências da Saúde,Saúde,Não informado,1,30,467
+2018,false,Engenharias,Computação,Bacharelado,1,36,96
+2018,false,Engenharias,Engenharia,Bacharelado,20,874,4076
+2018,false,Engenharias,Engenharia,Não informado,4,116,428
+2018,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado,6,136,1320
+2018,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado/Licenciatura,7,191,411
+2018,false,"Linguística, Letras e Artes",Letras e Artes,Licenciatura,1,11,29
+2019,false,Ciências Agrárias,Ciências Agrárias,Bacharelado,7,365,1046
+2019,false,Ciências Biológicas,Ciências Biológicas,Bacharelado/Licenciatura,1,56,426
+2019,false,Ciências Biológicas,Ciências Biológicas,Licenciatura,1,48,125
+2019,false,Ciências Exatas e da Terra,Ciências Exatas,Bacharelado,7,194,846
+2019,false,Ciências Exatas e da Terra,Ciências Exatas,Licenciatura,7,281,478
+2019,false,Ciências Exatas e da Terra,Computação,Bacharelado,3,169,990
+2019,false,Ciências Humanas,Ciências Humanas,ABI,2,54,290
+2019,false,Ciências Humanas,Ciências Humanas,Bacharelado,2,38,107
+2019,false,Ciências Humanas,Ciências Humanas,Bacharelado/Licenciatura,5,168,1427
+2019,false,Ciências Humanas,Ciências Humanas,Licenciatura,2,85,220
+2019,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,17,736,4623
+2019,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Não informado,1,58,911
+2019,false,Ciências da Saúde,Saúde,Bacharelado,6,323,9249
+2019,false,Ciências da Saúde,Saúde,Não informado,1,26,476
+2019,false,Engenharias,Computação,Bacharelado,1,38,121
+2019,false,Engenharias,Engenharia,Bacharelado,21,907,3659
+2019,false,Engenharias,Engenharia,Não informado,3,74,281
+2019,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado,6,142,1188
+2019,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado/Licenciatura,7,191,424
+2019,false,"Linguística, Letras e Artes",Letras e Artes,Licenciatura,1,12,29
+2020,false,Ciências Agrárias,Ciências Agrárias,Bacharelado,7,427,716
+2020,false,Ciências Biológicas,Ciências Biológicas,Bacharelado/Licenciatura,1,56,379
+2020,false,Ciências Biológicas,Ciências Biológicas,Licenciatura,1,56,109
+2020,false,Ciências Exatas e da Terra,Ciências Exatas,Bacharelado,6,168,553
+2020,false,Ciências Exatas e da Terra,Ciências Exatas,Licenciatura,7,305,331
+2020,false,Ciências Exatas e da Terra,Computação,Bacharelado,3,182,1053
+2020,false,Ciências Humanas,Ciências Humanas,ABI,2,64,217
+2020,false,Ciências Humanas,Ciências Humanas,Bacharelado,2,46,82
+2020,false,Ciências Humanas,Ciências Humanas,Bacharelado/Licenciatura,5,183,1239
+2020,false,Ciências Humanas,Ciências Humanas,Licenciatura,2,98,198
+2020,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,17,854,3732
+2020,false,Ciências da Saúde,Saúde,Bacharelado,6,354,7609
+2020,false,Engenharias,Computação,Bacharelado,1,42,112
+2020,false,Engenharias,Engenharia,Bacharelado,21,1031,2782
+2020,false,Engenharias,Engenharia,Não informado,3,84,216
+2020,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado,5,149,901
+2020,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado/Licenciatura,7,224,300
+2021,true,Ciências Agrárias,Ciências Agrárias,Bacharelado,7,215,453
+2021,true,Ciências Biológicas,Ciências Biológicas,Bacharelado/Licenciatura,1,28,249
+2021,true,Ciências Biológicas,Ciências Biológicas,Licenciatura,1,28,52
+2021,true,Ciências Exatas e da Terra,Ciências Exatas,Bacharelado,7,154,317
+2021,true,Ciências Exatas e da Terra,Ciências Exatas,Licenciatura,6,197,109
+2021,true,Ciências Exatas e da Terra,Computação,Bacharelado,3,91,731
+2021,true,Ciências Humanas,Ciências Humanas,ABI,1,32,115
+2021,true,Ciências Humanas,Ciências Humanas,Bacharelado,2,46,41
+2021,true,Ciências Humanas,Ciências Humanas,Bacharelado/Licenciatura,3,90,751
+2021,true,Ciências Humanas,Ciências Humanas,Licenciatura,2,63,88
+2021,true,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,16,433,2154
+2021,true,Ciências da Saúde,Saúde,Bacharelado,6,192,7083
+2021,true,Engenharias,Computação,Bacharelado,1,21,55
+2021,true,Engenharias,Engenharia,Bacharelado,21,522,1545
+2021,true,Engenharias,Engenharia,Não informado,3,42,132
+2021,true,"Linguística, Letras e Artes",Letras e Artes,ABI,5,140,127
+2021,true,"Linguística, Letras e Artes",Letras e Artes,Bacharelado,5,91,694
+2021,true,"Linguística, Letras e Artes",Letras e Artes,Bacharelado/Licenciatura,1,28,71
+2022,false,Ciências Agrárias,Ciências Agrárias,Bacharelado,7,399,514
+2022,false,Ciências Biológicas,Ciências Biológicas,Bacharelado/Licenciatura,1,56,209
+2022,false,Ciências Biológicas,Ciências Biológicas,Licenciatura,1,56,53
+2022,false,Ciências Exatas e da Terra,Ciências Exatas,Bacharelado,8,252,386
+2022,false,Ciências Exatas e da Terra,Ciências Exatas,Licenciatura,7,305,163
+2022,false,Ciências Exatas e da Terra,Computação,Bacharelado,3,182,903
+2022,false,Ciências Humanas,Ciências Humanas,ABI,2,64,124
+2022,false,Ciências Humanas,Ciências Humanas,Bacharelado,2,44,43
+2022,false,Ciências Humanas,Ciências Humanas,Bacharelado/Licenciatura,5,183,904
+2022,false,Ciências Humanas,Ciências Humanas,Licenciatura,2,96,131
+2022,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,17,868,2588
+2022,false,Ciências da Saúde,Saúde,Bacharelado,7,375,7598
+2022,false,Engenharias,Computação,Bacharelado,1,42,75
+2022,false,Engenharias,Engenharia,Bacharelado,21,1031,1524
+2022,false,Engenharias,Engenharia,Não informado,3,84,110
+2022,false,"Linguística, Letras e Artes",Letras e Artes,ABI,5,140,100
+2022,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado,5,126,773
+2022,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado/Licenciatura,2,84,58
+2023,false,Ciências Agrárias,Ciências Agrárias,Bacharelado,7,399,597
+2023,false,Ciências Biológicas,Ciências Biológicas,Bacharelado/Licenciatura,1,56,311
+2023,false,Ciências Biológicas,Ciências Biológicas,Licenciatura,1,56,100
+2023,false,Ciências Exatas e da Terra,Ciências Exatas,Bacharelado,8,252,607
+2023,false,Ciências Exatas e da Terra,Ciências Exatas,Licenciatura,7,305,246
+2023,false,Ciências Exatas e da Terra,Computação,Bacharelado,3,182,1609
+2023,false,Ciências Humanas,Ciências Humanas,ABI,2,64,176
+2023,false,Ciências Humanas,Ciências Humanas,Bacharelado,2,44,67
+2023,false,Ciências Humanas,Ciências Humanas,Bacharelado/Licenciatura,5,183,1279
+2023,false,Ciências Humanas,Ciências Humanas,Licenciatura,2,96,184
+2023,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,17,868,3436
+2023,false,Ciências da Saúde,Saúde,Bacharelado,7,396,8140
+2023,false,Engenharias,Computação,Bacharelado,1,42,101
+2023,false,Engenharias,Engenharia,Bacharelado,22,1115,1775
+2023,false,"Linguística, Letras e Artes",Letras e Artes,ABI,5,140,115
+2023,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado,5,126,1073
+2023,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado/Licenciatura,2,84,98
+2024,false,Ciências Agrárias,Ciências Agrárias,Bacharelado,7,399,482
+2024,false,Ciências Biológicas,Ciências Biológicas,Bacharelado/Licenciatura,1,56,338
+2024,false,Ciências Biológicas,Ciências Biológicas,Licenciatura,1,56,93
+2024,false,Ciências Exatas e da Terra,Ciências Exatas,Bacharelado,8,252,647
+2024,false,Ciências Exatas e da Terra,Ciências Exatas,Licenciatura,7,305,265
+2024,false,Ciências Exatas e da Terra,Computação,Bacharelado,3,182,1557
+2024,false,Ciências Humanas,Ciências Humanas,ABI,2,64,218
+2024,false,Ciências Humanas,Ciências Humanas,Bacharelado,2,44,75
+2024,false,Ciências Humanas,Ciências Humanas,Bacharelado/Licenciatura,5,183,1247
+2024,false,Ciências Humanas,Ciências Humanas,Licenciatura,2,96,199
+2024,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,16,833,3446
+2024,false,Ciências da Saúde,Saúde,Bacharelado,7,396,9235
+2024,false,Engenharias,Computação,Bacharelado,1,42,94
+2024,false,Engenharias,Engenharia,Bacharelado,22,1115,1862
+2024,false,"Linguística, Letras e Artes",Letras e Artes,ABI,5,140,135
+2024,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado,5,126,1007
+2024,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado/Licenciatura,2,84,80
+2025,false,Ciências Agrárias,Ciências Agrárias,Bacharelado,7,399,405
+2025,false,Ciências Biológicas,Ciências Biológicas,Bacharelado/Licenciatura,1,56,288
+2025,false,Ciências Biológicas,Ciências Biológicas,Licenciatura,1,56,104
+2025,false,Ciências Exatas e da Terra,Ciências Exatas,Bacharelado,8,252,604
+2025,false,Ciências Exatas e da Terra,Ciências Exatas,Licenciatura,7,305,236
+2025,false,Ciências Exatas e da Terra,Computação,Bacharelado,3,182,1302
+2025,false,Ciências Humanas,Ciências Humanas,ABI,2,64,145
+2025,false,Ciências Humanas,Ciências Humanas,Bacharelado,2,44,57
+2025,false,Ciências Humanas,Ciências Humanas,Bacharelado/Licenciatura,5,183,1083
+2025,false,Ciências Humanas,Ciências Humanas,Licenciatura,2,96,223
+2025,false,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,16,833,3089
+2025,false,Ciências da Saúde,Saúde,Bacharelado,8,414,8681
+2025,false,Engenharias,Computação,Bacharelado,1,42,76
+2025,false,Engenharias,Engenharia,Bacharelado,22,1115,1919
+2025,false,"Linguística, Letras e Artes",Letras e Artes,ABI,5,140,129
+2025,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado,5,126,756
+2025,false,"Linguística, Letras e Artes",Letras e Artes,Bacharelado/Licenciatura,2,84,81

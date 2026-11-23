@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: raw
+    description: Files produced by ingest/ (versioned in data/raw).
+    meta:
+      external_location: "data/raw/{name}.csv"
+    tables:
+      - name: candidato_vaga
+        description: >
+          One row per year x modality x category x course, parsed from the "relação
+          candidato/vaga" files of Coperve/UFSC (2003-2025). See ingest/parse.py.
+        columns:
+          - name: year
+            tests: [not_null]
+          - name: category
+            tests: [not_null]

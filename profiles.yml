@@ -1,0 +1,9 @@
+# Local DuckDB file: no cloud account needed. Marts are also exported to data/marts/ (CSV)
+# by `python export_marts.py`, for the Power BI report.
+ufsc_vestibular:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "{{ env_var('DBT_DUCKDB_PATH', 'ufsc.duckdb') }}"
+      threads: 4

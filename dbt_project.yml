@@ -1,0 +1,28 @@
+name: ufsc_vestibular
+version: "2.0.0"
+config-version: 2
+profile: ufsc_vestibular
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+
+models:
+  ufsc_vestibular:
+    staging:
+      +materialized: view
+    intermediate:
+      +materialized: table
+    marts:
+      +materialized: table
+      # also written to data/marts/ as CSV (versioned) for the Power BI report and the README
+      +post-hook: "copy (select * from {{ this }} order by all) to 'data/marts/{{ this.name }}.csv' (header, delimiter ',')"
+
+
+seeds:
+  ufsc_vestibular:
+    course_classification:
+      +column_types:
+        course_code: integer

@@ -1,0 +1,59 @@
+version: 2
+
+models:
+  - name: stg_candidato_vaga
+    columns:
+      - name: course_code
+        tests: [not_null]
+      - name: inscritos
+        tests: [not_null]
+
+  - name: int_course_year
+    description: One row per year x modality x course with comparable totals.
+    columns:
+      - name: course_year_key
+        tests: [unique, not_null]
+      - name: inscritos
+        tests: [not_null]
+      - name: vagas
+        tests: [not_null]
+      - name: modality
+        tests:
+          - accepted_values:
+              arguments:
+                values: ["vestibular", "enem", "vestibulares_anteriores"]
+
+  - name: dim_course
+    columns:
+      - name: course_code
+        tests: [unique, not_null]
+      - name: grande_area
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                - "Engenharias"
+                - "Ciências Exatas e da Terra"
+                - "Ciências Agrárias"
+                - "Ciências da Saúde"
+                - "Ciências Biológicas"
+                - "Ciências Humanas"
+                - "Ciências Sociais Aplicadas"
+                - "Linguística, Letras e Artes"
+
+  - name: fct_course_year
+    columns:
+      - name: course_year_key
+        tests: [unique, not_null]
+      - name: course_code
+        tests:
+          - relationships:
+              arguments:
+                to: ref('dim_course')
+                field: course_code
+
+  - name: agg_year
+    columns:
+      - name: year
+        tests: [unique, not_null]

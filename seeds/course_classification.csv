@@ -1,0 +1,127 @@
+course_code,course_name_latest,first_year,last_year,grande_area,subarea,degree_type,campus
+2,FÍSICA - BEL - DIURNO - FLORIANÓPOLIS,2003,2019,Ciências Exatas e da Terra,Ciências Exatas,Bacharelado,Florianópolis
+3,QUÍMICA - BEL/BEL EM QUÍMICA TECNOLÓGICA - FLORIANÓPOLIS,2009,2019,Ciências Exatas e da Terra,Ciências Exatas,Bacharelado,Florianópolis
+5,DIREITO - NOTURNO - FLORIANÓPOLIS,2003,2019,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Não informado,Florianópolis
+9,NUTRIÇÃO - DIURNO - FLORIANÓPOLIS,2003,2019,Ciências da Saúde,Saúde,Não informado,Florianópolis
+101,ENFERMAGEM - BEL - INTEGRAL - FLORIANÓPOLIS,2003,2025,Ciências da Saúde,Saúde,Bacharelado,Florianópolis
+102,FARMÁCIA - BEL - INTEGRAL - FLORIANÓPOLIS,2004,2025,Ciências da Saúde,Saúde,Bacharelado,Florianópolis
+103,MEDICINA - BEL - INTEGRAL - FLORIANÓPOLIS,2003,2025,Ciências da Saúde,Saúde,Bacharelado,Florianópolis
+104,ODONTOLOGIA - BEL - INTEGRAL - FLORIANÓPOLIS,2003,2025,Ciências da Saúde,Saúde,Bacharelado,Florianópolis
+106,FARMACIA - ANALISES CLINICAS,2003,2003,Ciências da Saúde,Saúde,Não informado,Florianópolis
+107,FARMACIA - TECNOLOGIA DE ALIMENTOS,2003,2003,Ciências da Saúde,Saúde,Não informado,Florianópolis
+108,CIÊNCIAS BIOLÓGICAS - BEL/LIC - INTEGRAL - FLORIANÓPOLIS,2003,2025,Ciências Biológicas,Ciências Biológicas,Bacharelado/Licenciatura,Florianópolis
+109,FONOAUDIOLOGIA - BEL - INTEGRAL - FLORIANÓPOLIS,2010,2025,Ciências da Saúde,Saúde,Bacharelado,Florianópolis
+110,CIÊNCIAS BIOLÓGICAS - LIC - NOTURNO - FLORIANÓPOLIS,2010,2025,Ciências Biológicas,Ciências Biológicas,Licenciatura,Florianópolis
+201,ENGENHARIA CIVIL - BEL - INTEGRAL - FLORIANÓPOLIS,2003,2025,Engenharias,Engenharia,Bacharelado,Florianópolis
+202,ENGENHARIA ELÉTRICA - BEL - INTEGRAL - FLORIANÓPOLIS,2003,2025,Engenharias,Engenharia,Bacharelado,Florianópolis
+203,ENGENHARIA MECÂNICA - BEL - INTEGRAL - FLORIANÓPOLIS,2003,2025,Engenharias,Engenharia,Bacharelado,Florianópolis
+205,QUÍMICA - LIC - INTEGRAL - FLORIANÓPOLIS,2009,2025,Ciências Exatas e da Terra,Ciências Exatas,Licenciatura,Florianópolis
+207,ARQUITETURA E URBANISMO - BEL - INTEGRAL - FLORIANÓPOLIS,2003,2025,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,Florianópolis
+208,CIÊNCIA DA COMPUTAÇÃO - BEL - INTEGRAL - FLORIANÓPOLIS,2003,2025,Ciências Exatas e da Terra,Computação,Bacharelado,Florianópolis
+211,ENGENHARIA SANITÁRIA E AMBIENTAL - BEL - INT - FLORIANÓPOLIS,2003,2025,Engenharias,Engenharia,Bacharelado,Florianópolis
+212,ENGENHARIA DE PRODUÇÃO CIVIL - INTEGRAL - FLORIANÓPOLIS,2003,2022,Engenharias,Engenharia,Não informado,Florianópolis
+213,ENGENHARIA DE PRODUÇÃO ELÉTRICA - INTEGR - FLORIANÓPOLIS,2003,2022,Engenharias,Engenharia,Não informado,Florianópolis
+214,ENGENHARIA DE PRODUÇÃO MECÂNICA - INTEGR - FLORIANÓPOLIS,2003,2022,Engenharias,Engenharia,Não informado,Florianópolis
+215,ENGENHARIA DE ALIMENTOS - BEL - INTEGRAL - FLORIANÓPOLIS,2003,2025,Engenharias,Engenharia,Bacharelado,Florianópolis
+216,ENGENHARIA QUÍMICA - BEL - INTEGRAL - FLORIANÓPOLIS,2003,2025,Engenharias,Engenharia,Bacharelado,Florianópolis
+217,QUÍMICA,2003,2008,Ciências Exatas e da Terra,Ciências Exatas,Não informado,Florianópolis
+220,ENGENHARIA DE CONTROLE E AUTOMAÇÃO - BEL - INT - FLORIANÓPOLIS,2003,2025,Engenharias,Engenharia,Bacharelado,Florianópolis
+222,MATEMÁTICA - BEL - INTEGRAL - FLORIANÓPOLIS,2003,2025,Ciências Exatas e da Terra,Ciências Exatas,Bacharelado,Florianópolis
+223,MATEMÁTICA - LIC - MATUTINO - FLORIANÓPOLIS,2003,2025,Ciências Exatas e da Terra,Ciências Exatas,Licenciatura,Florianópolis
+224,MATEMÁTICA - LICENCIATURA - NOTURNO,2003,2016,Ciências Exatas e da Terra,Ciências Exatas,Licenciatura,Florianópolis
+225,FÍSICA - LIC - NOTURNO - FLORIANÓPOLIS,2003,2025,Ciências Exatas e da Terra,Ciências Exatas,Licenciatura,Florianópolis
+226,QUÍMICA - BEL - INTEGRAL - FLORIANÓPOLIS,2021,2025,Ciências Exatas e da Terra,Ciências Exatas,Bacharelado,Florianópolis
+227,QUÍMICA TECNOLÓGICA - BEL - INTEGRAL - FLORIANÓPOLIS,2021,2025,Ciências Exatas e da Terra,Ciências Exatas,Bacharelado,Florianópolis
+230,METEOROLOGIA - BEL - INTEGRAL - FLORIANÓPOLIS,2012,2025,Ciências Exatas e da Terra,Ciências Exatas,Bacharelado,Florianópolis
+233,ENGENHARIA DE MATERIAIS - DIURNO - FLORIANÓPOLIS,2003,2018,Engenharias,Engenharia,Não informado,Florianópolis
+234,ENGENHARIA DE AQUICULTURA - BEL - INTEGRAL - FLORIANÓPOLIS,2003,2025,Ciências Agrárias,Ciências Agrárias,Bacharelado,Florianópolis
+235,ENGENHARIA ELETRÔNICA - BEL - INTEGRAL - FLORIANÓPOLIS,2010,2025,Engenharias,Engenharia,Bacharelado,Florianópolis
+236,ENGENHARIA DE MATERIAIS - BEL - INTEGRAL - FLORIANÓPOLIS,2019,2025,Engenharias,Engenharia,Bacharelado,Florianópolis
+237,ENGENHARIA DE PRODUÇÃO - BEL - INTEGRAL - FLORIANÓPOLIS,2023,2025,Engenharias,Engenharia,Bacharelado,Florianópolis
+238,SISTEMAS DE INFORMAÇÃO - BEL - NOTURNO - FLORIANÓPOLIS,2003,2025,Ciências Exatas e da Terra,Computação,Bacharelado,Florianópolis
+301,ADMINISTRAÇÃO - BEL - MATUTINO - FLORIANÓPOLIS,2003,2025,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,Florianópolis
+302,CIÊNCIAS CONTÁBEIS - BEL - MATUTINO - FLORIANÓPOLIS,2003,2025,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,Florianópolis
+303,DIREITO - BEL - MATUTINO - FLORIANÓPOLIS,2003,2025,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,Florianópolis
+304,CIÊNCIAS ECONÔMICAS - BEL - MATUTINO - FLORIANÓPOLIS,2003,2025,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,Florianópolis
+307,FILOSOFIA - LIC - VESPERTINO - FLORIANÓPOLIS,2019,2025,Ciências Humanas,Ciências Humanas,Licenciatura,Florianópolis
+308,PEDAGOGIA - LIC - VESPERTINO - FLORIANÓPOLIS,2003,2025,Ciências Humanas,Ciências Humanas,Licenciatura,Florianópolis
+309,SERVIÇO SOCIAL - BEL - MATUTINO - FLORIANÓPOLIS,2003,2023,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,Florianópolis
+310,CIÊNCIAS SOCIAIS - BEL/LIC - MATUTINO - FLORIANÓPOLIS,2003,2025,Ciências Humanas,Ciências Humanas,Bacharelado/Licenciatura,Florianópolis
+316,ADMINISTRAÇÃO - BEL - NOTURNO - FLORIANÓPOLIS,2003,2025,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,Florianópolis
+317,CIÊNCIAS CONTÁBEIS - BEL - NOTURNO - FLORIANÓPOLIS,2003,2025,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,Florianópolis
+318,CIÊNCIAS ECONÔMICAS - BEL - NOTURNO - FLORIANÓPOLIS,2003,2025,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,Florianópolis
+319,PSICOLOGIA - BEL/LIC - INTEGRAL - FLORIANÓPOLIS,2003,2025,Ciências Humanas,Ciências Humanas,Bacharelado/Licenciatura,Florianópolis
+320,CIÊNCIAS SOCIAIS - BEL/LIC - NOTURNO - FLORIANÓPOLIS,2003,2025,Ciências Humanas,Ciências Humanas,Bacharelado/Licenciatura,Florianópolis
+323,FILOSOFIA - BEL - NOTURNO - FLORIANÓPOLIS,2019,2025,Ciências Humanas,Ciências Humanas,Bacharelado,Florianópolis
+324,BIBLIOTECONOMIA - BEL - NOTURNO - FLORIANÓPOLIS,2003,2025,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,Florianópolis
+326,ABI - HISTÓRIA - ABI - MATUTINO - FLORIANÓPOLIS,2003,2022,Ciências Humanas,Ciências Humanas,ABI,Florianópolis
+327,ABI - HISTÓRIA - ABI - NOTURNO - FLORIANÓPOLIS,2003,2022,Ciências Humanas,Ciências Humanas,ABI,Florianópolis
+328,FILOSOFIA - BEL/LIC - VESPERTINO/NOTURNO - FLORIANÓPOLIS,2003,2018,Ciências Humanas,Ciências Humanas,Bacharelado/Licenciatura,Florianópolis
+329,FILOSOFIA - BEL/LIC - NOTURNO - FLORIANÓPOLIS,2003,2018,Ciências Humanas,Ciências Humanas,Bacharelado/Licenciatura,Florianópolis
+331,GEOGRAFIA - BEL/LIC - MATUTINO - FLORIANÓPOLIS,2003,2025,Ciências Humanas,Ciências Humanas,Bacharelado/Licenciatura,Florianópolis
+332,GEOGRAFIA - BEL/LIC - NOTURNO - FLORIANÓPOLIS,2003,2025,Ciências Humanas,Ciências Humanas,Bacharelado/Licenciatura,Florianópolis
+333,OCEANOGRAFIA - BEL - INTEGRAL - FLORIANÓPOLIS,2008,2025,Ciências Exatas e da Terra,Ciências Exatas,Bacharelado,Florianópolis
+335,ARQUIVOLOGIA - BEL - MATUTINO - FLORIANÓPOLIS,2010,2025,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,Florianópolis
+336,GEOLOGIA - BEL - INTEGRAL - FLORIANÓPOLIS,2010,2025,Ciências Exatas e da Terra,Ciências Exatas,Bacharelado,Florianópolis
+337,ANTROPOLOGIA - BEL - VESPERTINO - FLORIANÓPOLIS,2010,2025,Ciências Humanas,Ciências Humanas,Bacharelado,Florianópolis
+338,MUSEOLOGIA - BEL - INTEGRAL - FLORIANÓPOLIS,2010,2025,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,Florianópolis
+339,SERVIÇO SOCIAL - BEL - NOTURNO - FLORIANÓPOLIS,2003,2025,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,Florianópolis
+340,RELAÇÕES INTERNACIONAIS - BEL - VESP - FLORIANÓPOLIS,2009,2025,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,Florianópolis
+342,CIÊNCIA DA INFORMAÇÃO - BEL - INTEGRAL - FLORIANÓPOLIS,2016,2025,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,Florianópolis
+343,HISTÓRIA - ABI - MATUTINO - FLORIANÓPOLIS,2023,2025,Ciências Humanas,Ciências Humanas,ABI,Florianópolis
+346,HISTÓRIA - ABI - NOTURNO - FLORIANÓPOLIS,2023,2025,Ciências Humanas,Ciências Humanas,ABI,Florianópolis
+404,EDUCAÇÃO FÍSICA - LIC - VESPERTINO - FLORIANÓPOLIS,2003,2025,Ciências Exatas e da Terra,Ciências Exatas,Licenciatura,Florianópolis
+415,JORNALISMO - BEL - INTEGRAL - FLORIANÓPOLIS,2003,2025,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,Florianópolis
+419,LETRAS - SECRETARIADO EXECUTIVO INGLES,2003,2003,"Linguística, Letras e Artes",Letras e Artes,Não informado,Florianópolis
+420,DESIGN GRÁFICO,2003,2011,"Linguística, Letras e Artes",Letras e Artes,Não informado,Florianópolis
+421,LETRAS - ALEMÃO - BEL/LIC - DIURNO - FLORIANÓPOLIS,2003,2020,"Linguística, Letras e Artes",Letras e Artes,Bacharelado/Licenciatura,Florianópolis
+423,LETRAS - ESPANHOL - BEL/LIC - DIURNO - FLORIANÓPOLIS,2003,2020,"Linguística, Letras e Artes",Letras e Artes,Bacharelado/Licenciatura,Florianópolis
+424,LETRAS - FRANCÊS - BEL/LIC - DIURNO - FLORIANÓPOLIS,2003,2020,"Linguística, Letras e Artes",Letras e Artes,Bacharelado/Licenciatura,Florianópolis
+425,LETRAS - INGLÊS - BEL/LIC - DIURNO - FLORIANÓPOLIS,2003,2020,"Linguística, Letras e Artes",Letras e Artes,Bacharelado/Licenciatura,Florianópolis
+426,LETRAS - PORTUGUÊS - BEL/LIC - NOTURNO - FLORIANÓPOLIS,2003,2025,"Linguística, Letras e Artes",Letras e Artes,Bacharelado/Licenciatura,Florianópolis
+427,LETRAS - ITALIANO - BEL/LIC - DIURNO - FLORIANÓPOLIS,2003,2020,"Linguística, Letras e Artes",Letras e Artes,Bacharelado/Licenciatura,Florianópolis
+428,LETRAS - PORTUGUÊS - BEL/LIC - INTEGRAL - FLORIANÓPOLIS,2003,2025,"Linguística, Letras e Artes",Letras e Artes,Bacharelado/Licenciatura,Florianópolis
+429,SECRETARIADO EXECUTIVO - BEL - NOTURNO - FLORIANÓPOLIS,2004,2025,Ciências Sociais Aplicadas,Ciências Sociais Aplicadas,Bacharelado,Florianópolis
+440,LETRAS - LIBRAS - LIC - DIURNO - FLORIANÓPOLIS,2012,2019,"Linguística, Letras e Artes",Letras e Artes,Licenciatura,Florianópolis
+441,LETRAS - LIBRAS - BEL - DIURNO - FLORIANÓPOLIS,2012,2019,"Linguística, Letras e Artes",Letras e Artes,Bacharelado,Florianópolis
+444,EDUCAÇÃO FÍSICA - BEL - MATUTINO - FLORIANÓPOLIS,2006,2025,Ciências Exatas e da Terra,Ciências Exatas,Bacharelado,Florianópolis
+450,CINEMA - BEL - INTEGRAL - FLORIANÓPOLIS,2005,2025,"Linguística, Letras e Artes",Letras e Artes,Bacharelado,Florianópolis
+451,ARTES CÊNICAS - BEL - NOTURNO - FLORIANÓPOLIS,2008,2025,"Linguística, Letras e Artes",Letras e Artes,Bacharelado,Florianópolis
+452,DESIGN DE PRODUTO - BEL - INTEGRAL - FLORIANÓPOLIS,2009,2025,"Linguística, Letras e Artes",Letras e Artes,Bacharelado,Florianópolis
+453,DESIGN DE ANIMAÇÃO,2009,2011,"Linguística, Letras e Artes",Letras e Artes,Não informado,Florianópolis
+454,DESIGN - BEL - INTEGRAL - FLORIANÓPOLIS,2012,2025,"Linguística, Letras e Artes",Letras e Artes,Bacharelado,Florianópolis
+455,ANIMAÇÃO - BEL - INTEGRAL - FLORIANÓPOLIS,2016,2025,"Linguística, Letras e Artes",Letras e Artes,Bacharelado,Florianópolis
+460,LETRAS - ALEMÃO - ABI - VESPERTINO - FLORIANÓPOLIS,2021,2025,"Linguística, Letras e Artes",Letras e Artes,ABI,Florianópolis
+463,LETRAS - ESPANHOL - ABI - MATUTINO - FLORIANÓPOLIS,2021,2025,"Linguística, Letras e Artes",Letras e Artes,ABI,Florianópolis
+466,LETRAS - FRANCÊS - ABI - MATUTINO - FLORIANÓPOLIS,2021,2025,"Linguística, Letras e Artes",Letras e Artes,ABI,Florianópolis
+469,LETRAS - INGLÊS - ABI - VESPERTINO - FLORIANÓPOLIS,2021,2025,"Linguística, Letras e Artes",Letras e Artes,ABI,Florianópolis
+472,LETRAS - ITALIANO - ABI - MATUTINO - FLORIANÓPOLIS,2021,2025,"Linguística, Letras e Artes",Letras e Artes,ABI,Florianópolis
+501,AGRONOMIA - BEL - INTEGRAL - FLORIANÓPOLIS,2003,2025,Ciências Agrárias,Ciências Agrárias,Bacharelado,Florianópolis
+502,ZOOTECNIA - BEL - INTEGRAL - FLORIANÓPOLIS,2008,2025,Ciências Agrárias,Ciências Agrárias,Bacharelado,Florianópolis
+503,CIÊNCIA E TEC. DE ALIMENTOS - BEL - INT - FLORIANÓPOLIS,2009,2025,Ciências Agrárias,Ciências Agrárias,Bacharelado,Florianópolis
+551,CIÊNCIAS RURAIS - DIURNO,2010,2012,Ciências Agrárias,Ciências Agrárias,Não informado,Florianópolis
+552,MEDICINA VETERINÁRIA - BEL - INTEGRAL - CURITIBANOS,2012,2025,Ciências Agrárias,Ciências Agrárias,Bacharelado,Curitibanos
+553,ENGENHARIA FLORESTAL - BEL - INTEGRAL - CURITIBANOS,2013,2025,Ciências Agrárias,Ciências Agrárias,Bacharelado,Curitibanos
+555,AGRONOMIA - BEL - INTEGRAL - CURITIBANOS,2013,2025,Ciências Agrárias,Ciências Agrárias,Bacharelado,Curitibanos
+556,MEDICINA - BEL - INTEGRAL - CURITIBANOS,2025,2025,Ciências da Saúde,Saúde,Bacharelado,Curitibanos
+601,CIÊNCIA E TECNOLOGIA - BEL - INTEGRAL - JOINVILLE,2010,2025,Engenharias,Engenharia,Bacharelado,Joinville
+602,ENGENHARIA AEROESPACIAL - BEL - INTEGRAL - JOINVILLE,2015,2025,Engenharias,Engenharia,Bacharelado,Joinville
+603,ENGENHARIA AUTOMOTIVA - BEL - INTEGRAL - JOINVILLE,2015,2025,Engenharias,Engenharia,Bacharelado,Joinville
+604,ENGENHARIA FERROV. E METROVIÁRIA - BEL - INT - JOINVILLE,2015,2025,Engenharias,Engenharia,Bacharelado,Joinville
+605,ENGENHARIA MECATRÔNICA - BEL - INTEGRAL - JOINVILLE,2015,2025,Engenharias,Engenharia,Bacharelado,Joinville
+606,ENGENHARIA NAVAL - BEL - INTEGRAL - JOINVILLE,2015,2025,Engenharias,Engenharia,Bacharelado,Joinville
+607,ENGENHARIA CIVIL DE INFRAESTRUTURA - BEL - INT - JOINVILLE,2015,2025,Engenharias,Engenharia,Bacharelado,Joinville
+608,ENGENHARIA DE TRANSP. E LOGÍSTICA - BEL - INTEGRAL - JOINVILLE,2015,2025,Engenharias,Engenharia,Bacharelado,Joinville
+651,TEC DA INFORMAÇÃO E COMUNICAÇÃO - DIURNO,2010,2010,Ciências Exatas e da Terra,Computação,Não informado,Florianópolis
+652,TEC. DA INFO. E COMUNICAÇÃO - BEL - NOT - ARARANGUÁ,2010,2025,Ciências Exatas e da Terra,Computação,Bacharelado,Araranguá
+653,ENGENHARIA DE ENERGIA - BEL - INTEGRAL - ARARANGUÁ,2010,2025,Engenharias,Engenharia,Bacharelado,Araranguá
+654,FISIOTERAPIA - BEL - INTEGRAL - ARARANGUÁ,2011,2025,Ciências da Saúde,Saúde,Bacharelado,Araranguá
+655,ENGENHARIA DE COMPUTAÇÃO - BEL - INTEGRAL - ARARANGUÁ,2011,2025,Engenharias,Computação,Bacharelado,Araranguá
+656,MEDICINA - BEL - INTEGRAL - ARARANGUÁ,2022,2025,Ciências da Saúde,Saúde,Bacharelado,Araranguá
+751,MATEMÁTICA - LIC - NOTURNO - BLUMENAU,2014,2025,Ciências Exatas e da Terra,Ciências Exatas,Licenciatura,Blumenau
+752,QUÍMICA - LIC - NOTURNO - BLUMENAU,2014,2025,Ciências Exatas e da Terra,Ciências Exatas,Licenciatura,Blumenau
+753,ENGENHARIA DE MATERIAIS - BEL - INTEGRAL - BLUMENAU,2014,2025,Engenharias,Engenharia,Bacharelado,Blumenau
+754,ENGENHARIA DE CONTROLE E AUTOMAÇÃO - BEL - INT - BLUMENAU,2014,2025,Engenharias,Engenharia,Bacharelado,Blumenau
+755,ENGENHARIA TÊXTIL - BEL - MATUTINO - BLUMENAU,2014,2025,Engenharias,Engenharia,Bacharelado,Blumenau
+756,MATEMÁTICA - LIC - MATUTINO - BLUMENAU,2016,2025,Ciências Exatas e da Terra,Ciências Exatas,Licenciatura,Blumenau
+757,QUÍMICA - BEL - NOTURNO - BLUMENAU,2020,2025,Ciências Exatas e da Terra,Ciências Exatas,Bacharelado,Blumenau

@@ -1,172 +1,127 @@
-# 📊 Análise dos Dados da UFSC ao Longo do Tempo (2003–2025)
+# 🎓 UFSC Entrance Exam, 2003–2025
 
-## 📜 Resumo
+[![dbt build](https://github.com/RodrigoJacquesW/UFSC_data_analysis/actions/workflows/dbt.yml/badge.svg)](https://github.com/RodrigoJacquesW/UFSC_data_analysis/actions/workflows/dbt.yml)
 
-Este projeto contempla um estudo histórico sobre o processo seletivo da Universidade Federal de Santa Catarina (UFSC), analisando os dados de **inscritos, notas de corte e relação candidato/vaga** no período de **2003 a 2025**.
+How many people apply to the entrance exam (*vestibular*) of the Federal University of Santa Catarina (UFSC), and for which courses? This project rebuilds 23 years of official data, published every year in a different format (HTML pages, PDF tables, one PDF per quota category), into one consistent and tested series.
 
-A proposta é **avaliar a queda expressiva na procura por universidades públicas**, refletindo sobre possíveis causas e consequências desse movimento para a educação superior no Brasil.
+Stack: **Python** (download + PDF/HTML parsing) → **dbt + DuckDB** (modeling and tests, runs locally with no cloud account) → **GitHub Actions** (runs `dbt build` on every push).
 
-A análise foi dividida em três etapas:
+![Applicants and applicants per vacancy](docs/img/ufsc_inscritos.png)
 
-1. **Processo de execução**
-2. **Resultados**
-3. **Discussões finais**
+## Findings
 
----
+- **Applicants fell 52%:** from 40,124 in 2005 to 19,178 in 2025. In the same period the number of vacancies offered in the exam grew 12% (3,920 → 4,391), so competition fell from **10.2 to 4.4 applicants per vacancy**.
+- **Engineering lost 77% of its applicants** after peaking in 2013 (8,178 → 1,919). Civil Engineering went from 2,058 to 243 (−88%).
+- **Teaching degrees (*licenciaturas*) fell 78%** (2,614 in 2005 → 563).
+- **Health is the most resilient area** (−22% from its 2016 peak), and **computing recovered**: Computer Science went from 521 applicants in 2013 to 757 in 2025.
 
-## ⚙️ Processo de Execução
+![Applicants by area, index 2005 = 100](docs/img/ufsc_areas.png)
 
-### 🧍️ Extração
+**What this data does and does not say.** It counts applicants to UFSC's *own* exam. Part of UFSC's vacancies are also offered through SiSU (the national ENEM-based system) and are not in these files. The fall in exam applicants is therefore *not* the same as a fall in demand for the university. It is the combination of fewer exam applicants and a shift to other ways in. The exam itself also changed: unified with UFFS in 2020 and with IFSC/IFC from 2023, and no exam at all in 2021 (pandemic).
 
-A extração foi feita manualmente, dado o formato irregular dos arquivos e a complexidade de padronização. Todos os dados foram retirados **exclusivamente de fontes públicas**, disponíveis no site da UFSC:
+## How the series was rebuilt
 
-🔗 [Vestibulares Anteriores – Coperve/UFSC](https://coperve.ufsc.br/vestibulares-anteriores/)
+Coperve publishes one "relação candidato/vaga" (applicants per vacancy) per year, and the layout changes over time:
 
-Os arquivos originais foram disponibilizados em **PDF ou Excel**.
+| Years | Source format | What it contains |
+|---|---|---|
+| 2003–2007 | HTML table | vacancies and 1st-option applicants per course |
+| 2008–2010 | HTML table | total + affirmative-action (PAA) groups |
+| 2011–2012 | PDF, one table | total, non-PAA and PAA groups |
+| 2013–2019 | one PDF per quota category | "Classificação Geral" + one file per PAA category |
+| 2020–2025 | one PDF per category + a "Total" file | from 2020, UFSC and other institutions in the same files |
 
----
+Five decisions make the years comparable. Each one was checked against the data:
 
-### 🗂️ Organização e Tratamento
+1. **Applicants in 2013–2019 come from "Classificação Geral".** That file lists *all* candidates of a course, but only the general-list vacancies. Where both files exist (2020–2025), Geral applicants equal Total applicants in 100% of courses.
+2. **Vacancies in 2013–2019 = general list + quota categories.** The same 2020–2025 files show Total = Geral + Σ quotas in 100% of courses. Without this, vacancies look like they halve in 2016 (old version: ~2,250) when they did not (rebuilt: 4,552).
+3. **Practice-only candidates are excluded.** From 2024 the files include code 999, "Curso Treinamento" (*treineiros*, 1,544 in 2024), people who take the exam without applying for a course.
+4. **Only UFSC courses.** The unified exams (2020, 2023+) publish other institutions in the same pages; the parser keeps UFSC from the header of each PDF.
+5. **2021 is flagged, not dropped.** There was no exam: candidates applied with their ENEM score or with previous vestibular scores, two parallel processes (`modality` column).
 
-- Os arquivos foram separados em três categorias:
+**Reconciliation:** for 2003–2019 the sum of applicants per course is 95–98% of the official number of candidates of each year (the gap is candidates without a valid course option). A dbt test enforces this range.
 
-  - `Dados Gerais`
-  - `Candidato/Vaga`
-  - `Nota de Corte`
+### What changed from the first version (July 2025)
 
-- Cada conjunto de arquivos foi **tratado individualmente** com `Python + Pandas`, e depois concatenado em arquivos únicos por categoria.
+The first version of this project (BigQuery + Dataform + Power BI) had three problems, found while making it reproducible:
 
-- Após o tratamento, os dados foram divididos em:
+- **2007 and 2010 were missing.** A `range(2002, 2007)` skips 2007, and `range(2008, 2010)` skips 2010.
+- **Vacancies mixed two definitions.** Some years counted all vacancies and others only the general list, so applicants per vacancy jumped for no real reason.
+- **2020–2025 were inflated** by *treineiros* and other institutions of the unified exam. In 2024 the old series had 23,767 applicants against 20,980 for UFSC alone. Because of this, the decline is larger than the first version showed (−52% from 2005, not −41%).
 
-  - `raw_data`: dados brutos
-  - `clean_data`: colunas padronizadas e tipos corrigidos
-  - `enrich_data`: cálculos e colunas derivadas
+The source files were not in the repository either, so the old numbers could not be reproduced. They are now downloaded by script, with a manifest of URLs and SHA-256 hashes.
 
-Este projeto poderia ter sido conduzido localmente com ferramentas mais simples, mas foi utilizado como **projeto de aprendizado prático de Python, SQL, BigQuery e Dataform**.
+## Data model
 
----
+```mermaid
+flowchart LR
+    A[Coperve websites<br/>HTML + PDF] -->|ingest/download.py| B[data/sources<br/>+ manifest.csv]
+    B -->|ingest/parse.py| C[data/raw/candidato_vaga.csv<br/>year x category x course]
+    C --> S[stg_candidato_vaga]
+    S --> I[int_course_year]
+    I --> F[fct_course_year]
+    D[seed: course_classification<br/>CNPq area, degree, campus] --> DC[dim_course]
+    F --> AY[agg_year]
+    F --> AA[agg_area_year]
+    DC --> AA
+    O[seed: official_candidates] --> AY
+```
 
-### ☁️ Armazenamento e Modelagem
+| Model | Grain | Notes |
+|---|---|---|
+| `stg_candidato_vaga` | year × modality × category × course | typed, *treineiros* removed |
+| `int_course_year` | year × modality × course | comparable applicants and vacancies; `vagas_method` records how vacancies were obtained |
+| `dim_course` | course | CNPq knowledge area, degree type (bachelor/teaching/ABI), campus |
+| `fct_course_year` | year × modality × course | + applicants per vacancy, exam model, `is_atypical_year` |
+| `agg_year`, `agg_area_year` | year / area × year | headline series; exported to `data/marts/*.csv` |
 
-Embora não fosse essencial para este projeto, optei por usar o **Google Cloud Platform** e modelar os dados com o **Dataform CLI** no VSCode, simulando uma pequena stack de engenharia de dados para fins de aprendizado.
+Courses are classified by the **CNPq knowledge areas** (*grandes áreas*), an official taxonomy, plus degree type and campus taken from the course name (`seeds/course_classification.csv`, reviewable by hand).
 
-> **Nota:** todos os dados considerados fazem parte da **categoria Ampla Concorrência**.
+**23 data tests** run in CI: unique and not-null keys, referential integrity, accepted values, all 23 years present, no *treineiros* in the facts, positive vacancies, the two quota identities above, and the reconciliation with the official counts.
 
----
+## How to run
 
-## 📉 Resultados
+```bash
+git clone https://github.com/RodrigoJacquesW/UFSC_data_analysis.git
+cd UFSC_data_analysis
+python -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
 
-### 🔻 Queda no Número de Inscritos
+dbt build --profiles-dir .        # models + tests, from the versioned data/raw (DuckDB file: ufsc.duckdb)
+python analysis/charts.py         # charts in docs/img
 
-De **2005 a 2025**, a UFSC registrou uma queda de aproximadamente **41% no número de inscritos** na ampla concorrência, **mesmo com o crescimento populacional de SC no período**.
+# optional: rebuild data/raw from the Coperve websites (~200 files, ~25 MB)
+python ingest/download.py
+python ingest/parse.py
+```
 
-📈 Gráfico de inscritos por ano (ampla concorrência):
+> `dados.coperve.ufsc.br` does not send its intermediate TLS certificate. Instead of disabling verification, the downloader adds the two public Let's Encrypt intermediates (`ingest/certs/`) to the CA bundle. Verification still anchors on ISRG Root X1.
 
-> <img width="1091" height="327" alt="image" src="https://github.com/user-attachments/assets/bbedb396-5676-40cb-a03b-d03ec44f54ac" />
-
----
-
-### 📊 Relação com Nota de Corte e Candidato/Vaga
-
-A evolução da nota de corte e da relação candidato/vaga acompanha diretamente a variação do número de inscritos ao longo dos anos.
-
-📈 Gráfico: Notas de corte e relação candidato/vaga
-
-> <img width="1093" height="661" alt="image" src="https://github.com/user-attachments/assets/3fd6477a-bdc8-4519-ac2a-cb90dd06fa09" />
-
----
-
-### 🧪 Comparativo por Área de Conhecimento
-
-#### Engenharias vs Saúde
-
-- **Engenharias**
-
-  - Pico em **2013** com **7668 inscritos**
-  - Em 2025: **1963 inscritos** (queda de **\~74%**)
-
-- **Saúde**
-
-  - Pico em **2016** com **12.331 inscritos**
-  - Em 2025: **9674 inscritos** (queda de **\~22%**)
-
-📊 Gráfico: Comparativo por área (Engenharias vs Saúde)
-<img width="1420" height="794" alt="image" src="https://github.com/user-attachments/assets/1073a350-ede9-47c2-bef6-f8cb8f707bba" />
-
----
-
-#### Tecnologia vs Licenciaturas
-
-- **Tecnologia**
-
-  - Pico em **2003** com **2212 inscritos**
-  - Em 2025: **1387 inscritos** (queda de **\~37%**)
-
-- **Licenciaturas**
-
-  - Pico em **2003** com **7895 inscritos**
-  - Em 2025: **1911 inscritos** (queda de **\~75%**)
-
-📊 Gráfico: Comparativo por área (Tecnologia vs Licenciaturas)
-<img width="1417" height="800" alt="image" src="https://github.com/user-attachments/assets/71f6a176-2c06-481d-8c1c-1bae1fd87b36" />
-
----
-
-### 📌 Linhas de tendência (por área)
-
-📈 Médias traçadas para inscrições em cursos de Saúde e Tecnologia mostram que esses segmentos **ainda mantêm estabilidade**, diferentemente de Engenharias e Licenciaturas.
-<img width="708" height="397" alt="image" src="https://github.com/user-attachments/assets/79c1208c-81e7-4338-b758-44c6a2216176" />
-<img width="707" height="395" alt="image" src="https://github.com/user-attachments/assets/42695b33-7308-4d63-ab99-373705d0b0c1" />
-
----
-
-## 🤔 Possíveis Causas
-
-Alguns fatores que podem explicar a queda na procura:
-
-- ❌ **Sucateamento das universidades públicas**: Como consequência da queda de investimento, a falta de estrutura básica.
-- 🧑‍🎓 **Desvalorização profissional**: falta de fiscalização do CREA por exemplo, salários baixos e pouca perspectiva em algumas carreiras.
-- 🕵️‍♂️ **Crescimento do EAD privado**: acessível, flexível e cada vez mais difundido.
-
-Segundo a Carta Capital:
-"O mais recente Censo de Educação do Ensino Superior, divulgado em maio deste ano, registrou a primeira queda de matrículas nas universidades federais brasileiras desde 1990. No período de 2019 e 2020, o número de estudantes que entraram no ensino superior pelas UFs passou de 1,3 milhões para 1,2 milhões. Ao lado da diminuição de matrículas, também se sobressaíram os trancamentos. Segundo dados levantados pelo jornal O Globo, cerca de 270 mil estudantes suspenderam a graduação por tempo indeterminado no período da pesquisa."
-
-Segundo o Inep:
-"Já o Inep, instituto responsável pelo Censo, apontou que, em contrapartida, as instituições privadas registraram aumento no número de ingressantes, chegando a corresponder a 86% do total das matrículas no ensino superior em 2020. Além disso, 53,4% deste ingresso aconteceu no ensino a distância, foram mais de 2 milhões de estudantes que se matricularam no ensino remoto, enquanto 1,7 milhão de estudantes, cerca de 46,6% ficaram no ensino presencial."
-
----
-
-## 🔮 Impactos Futuros
-
-A queda de inscritos pode provocar:
-
-- Redução da concorrência → entrada de candidatos menos preparados
-- Aumento na taxa de desistência e evasão
-- Formação de profissionais com base menos sólida
-- Pressão sobre a qualidade da educação pública
-
-Segundo a Fapesp:
-
-"Desde 2019, caiu de patamar o número de estudantes de instituições públicas de ensino superior do Brasil que conseguem concluir a graduação. Foram 251.374 naquele ano, 3% a menos que no período anterior. A situação se agravou na pandemia, com a suspensão das atividades presenciais e atraso na conclusão do ano letivo. Em 2020, o contingente de formados despencou para 204.174, queda de 18,7% em relação a 2019. Voltou a subir em 2021, para 219.342, mas ainda se encontra nos níveis de quase uma década atrás. Os dados constam do último Censo da Educação Superior do Instituto Nacional de Estudos e Pesquisas Educacionais (Inep), órgão do Ministério da Educação, divulgado em novembro de 2022."
-
-> A pergunta que fica é: “O que a queda na nota de corte e na concorrência pode representar no mercado de trabalho daqui a 10 anos?”
-
----
-
-## 📂 Estrutura do Projeto
+## Repository structure
 
 ```
+├── ingest/                 # download.py (sources + manifest), parse.py (HTML/PDF -> CSV), certs/
 ├── data/
-│   ├── bronze/     <- Arquivos brutos
-│   ├── final/      <- Arquivos prontos para análise
-├── scripts/        <- Scripts Python para extração e limpeza
-├── definitions/    <- Arquivos .sqlx para modelagem com Dataform
-├── README.md
-└── requirements.txt
+│   ├── sources/manifest.csv  # every source URL with its SHA-256 (files themselves not versioned)
+│   ├── raw/                # candidato_vaga.csv: parsed, untouched
+│   └── marts/              # dbt outputs as CSV (Power BI, charts)
+├── models/                 # staging, intermediate, marts + schema tests
+├── seeds/                  # course_classification.csv, official_candidates.csv
+├── tests/                  # singular tests (reconciliation, identities, coverage)
+├── macros/                 # exam_model()
+├── analysis/charts.py
+├── powerbi/ufsc_v1_bigquery.pbix   # report of the first version (BigQuery)
+└── .github/workflows/dbt.yml
 ```
+
+## Limitations and next steps
+
+- Applicants are counted by **1st option**: a candidate counts once, for one course.
+- **SiSU vacancies are not included.** Adding them (from the SiSU open data) would answer the broader question about demand for UFSC.
+- Cut-off scores (*notas de corte*) were part of the first version. Their format changes even more across years (number of correct answers → final score), and they are not rebuilt yet.
+
+Data: [Coperve/UFSC](https://coperve.ufsc.br/vestibulares-anteriores/), public.
 
 ---
 
-
-
-🚀 Projeto finalizado por [Rodrigo Jacques Wolff](https://github.com/RodrigoJacquesW) – Julho/2025
+**Rodrigo Jacques Wolff** · Analytics Engineer · [LinkedIn](https://www.linkedin.com/in/rodrigo-jacques-wolff/)

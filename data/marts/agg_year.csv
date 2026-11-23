@@ -1,0 +1,24 @@
+year,exam_model,is_atypical_year,courses,vagas,inscritos,candidatos_por_vaga,official_candidates,share_of_official,official_includes_other_institutions
+2003,Vestibular UFSC,false,61,3880,40361,10.4,41303,0.977,false
+2004,Vestibular UFSC,false,60,3890,37680,9.69,38862,0.97,false
+2005,Vestibular UFSC,false,61,3920,40124,10.24,41322,0.971,false
+2006,Vestibular UFSC,false,62,3920,32496,8.29,33774,0.962,false
+2007,Vestibular UFSC,false,62,3920,28870,7.36,30133,0.958,false
+2008,Vestibular UFSC,false,65,4095,29243,7.14,30612,0.955,false
+2009,Vestibular UFSC,false,70,4581,29348,6.41,30854,0.951,false
+2010,Vestibular UFSC,false,82,6021,31433,5.22,32524,0.966,false
+2011,Vestibular UFSC,false,83,5881,33705,5.73,34876,0.966,false
+2012,Vestibular UFSC,false,85,5991,29220,4.88,30358,0.963,false
+2013,Vestibular UFSC,false,86,6031,35187,5.83,36503,0.964,false
+2014,Vestibular UFSC,false,91,6511,32882,5.05,34002,0.967,false
+2015,Vestibular UFSC,false,98,6377,32329,5.07,33416,0.967,false
+2016,Vestibular UFSC,false,101,4552,35318,7.76,36704,0.962,false
+2017,Vestibular UFSC,false,101,4543,32820,7.22,33789,0.971,false
+2018,Vestibular UFSC,false,101,3967,29898,7.54,31284,0.956,false
+2019,Vestibular UFSC,false,101,3965,26916,6.79,28042,0.96,false
+2020,Unificado UFSC/UFFS,false,96,4323,20529,4.75,25646,0.8,true
+2021,Pandemia: ENEM ou vestibulares anteriores (sem prova),true,91,2413,14767,6.12,,,
+2022,Vestibular UFSC,false,99,4387,16256,3.71,18141,0.896,false
+2023,Unificado UFSC/IFSC/IFC,false,97,4408,19914,4.52,23445,0.849,true
+2024,Unificado UFSC/IFSC/IFC,false,96,4373,20980,4.8,26015,0.806,true
+2025,Unificado UFSC/IFSC/IFC,false,97,4391,19178,4.37,23931,0.801,true

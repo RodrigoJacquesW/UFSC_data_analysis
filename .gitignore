@@ -1,0 +1,22 @@
+# Environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+
+# dbt / DuckDB
+target/
+dbt_packages/
+logs/
+*.duckdb
+*.duckdb.wal
+.user.yml
+
+# Downloaded source files (re-download with ingest/download.py; manifest.csv is versioned)
+data/sources/*/
+
+# OS
+.DS_Store
+Thumbs.db
